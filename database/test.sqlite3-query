@@ -1,4 +1,4 @@
 -- database: ./data_source.db
 
-SELECT * FROM Guest WHERE Guestid=1;
+SELECT * FROM Guest, Booking WHERE Guest.Guestid =Booking.guestid AND booking.guestid=1;
 
