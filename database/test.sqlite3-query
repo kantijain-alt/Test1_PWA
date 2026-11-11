@@ -2,3 +2,4 @@
 
 SELECT * FROM Guest, Booking WHERE Guest.Guestid =Booking.guestid AND booking.guestid=1;
 
+SELECT * FROM Booking where booking.bookid=1
