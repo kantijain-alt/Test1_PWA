@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>hello World!</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <h1>Movie Catalogue</h1>
+    <input
+      id="search"
+      type="search"
+      placeholder="Search by title, year, or actor..."
+    />
+    <select id="searchby">
+      <option value="all">ALL</option>
+      <option value="title">Title</option>
+      <option value="year">Year</option>
+      <option value="actor">Actor</option>
+    </select>
+
+    <div class="add">
+      <input id="title" placeholder="title.." />
+      <input id="year" type="number" placeholder="Year" />
+      <input id="actor" type="number" placeholder="Main actor" />
+      <button id="addBtn">Add</button>
+    </div>
+    <ul id="list"></ul>
+  </body>
+</html>
